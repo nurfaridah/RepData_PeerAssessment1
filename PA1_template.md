@@ -36,7 +36,7 @@ str(rawdata)
 total_steps_per_day <- tapply(rawdata$steps, rawdata$date, sum, na.rm=TRUE)
 total_steps_per_day
 hist(total_steps_per_day, col = heat.colors(3))
-
+![](fig/1.png)
 mean_steps <- mean(rawdata$steps, na.rm=TRUE)
 mean_steps
 median_steps <- median(rawdata$steps, na.rm=TRUE)
